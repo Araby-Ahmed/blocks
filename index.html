@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Memory Game</title>
+  </head>
+  <body>
+    <div class="lose">
+      <span>YOU Lose <span>11 </span>of 10</span>
+      <p>Try Again</p>
+    </div>
+
+    <div class="win">
+      <span>YOU Win Congratulations <span></span></span>
+    </div>
+    <div class="control-buttons">
+      <span>Start Game</span>
+    </div>
+    <div class="kulo">
+      <div class="info-container">
+        <div class="name">Hello: <span></span></div>
+        <div class="tries">Wrong Tries: <span></span></div>
+      </div>
+      <div class="memory-game-blocks">
+        <div class="game-block" data-friends="1">
+          <div class="face front"></div>
+          <div class="face back">
+            <img decoding="async" src="10/1.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-friends="1">
+          <div class="face front"></div>
+          <div class="face back">
+            <img decoding="async" src="10/1.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-friends="2">
+          <div class="face front"></div>
+          <div class="face back">
+            <img decoding="async" src="10/2.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-friends="2">
+          <div class="face front"></div>
+          <div class="face back">
+            <img decoding="async" src="10/2.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-friends="3">
+          <div class="face front"></div>
+          <div class="face back">
+            <img decoding="async" src="10/3.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-friends="3">
+          <div class="face front"></div>
+          <div class="face back">
+            <img decoding="async" src="10/3.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-friends="4">
+          <div class="face front"></div>
+          <div class="face back">
+            <img decoding="async" src="10/4.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-friends="4">
+          <div class="face front"></div>
+          <div class="face back">
+            <img decoding="async" src="10/4.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-friends="5">
+          <div class="face front"></div>
+          <div class="face back">
+            <img decoding="async" src="10/5.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-friends="5">
+          <div class="face front"></div>
+          <div class="face back">
+            <img decoding="async" src="10/5.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-friends="6">
+          <div class="face front"></div>
+          <div class="face back">
+            <img decoding="async" src="10/6.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-friends="6">
+          <div class="face front"></div>
+          <div class="face back">
+            <img decoding="async" src="10/6.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-friends="7">
+          <div class="face front"></div>
+          <div class="face back">
+            <img decoding="async" src="10/7.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-friends="7">
+          <div class="face front"></div>
+          <div class="face back">
+            <img decoding="async" src="10/7.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-friends="8">
+          <div class="face front"></div>
+          <div class="face back">
+            <img decoding="async" src="10/8.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-friends="8">
+          <div class="face front"></div>
+          <div class="face back">
+            <img decoding="async" src="10/8.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-friends="9">
+          <div class="face front"></div>
+          <div class="face back">
+            <img decoding="async" src="10/9.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-friends="9">
+          <div class="face front"></div>
+          <div class="face back">
+            <img decoding="async" src="10/9.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-friends="10">
+          <div class="face front"></div>
+          <div class="face back">
+            <img decoding="async" src="10/10.jpg" alt="" />
+          </div>
+        </div>
+        <div class="game-block" data-friends="10">
+          <div class="face front"></div>
+          <div class="face back">
+            <img decoding="async" src="10/10.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <audio id="success" src="win.mp3" preload="auto"></audio>
+    <audio id="fail" src="lose.wav" preload="auto"></audio>
+    <audio id="all" src="all.mp3" preload="auto"></audio>
+    <audio id="done" src="done.wav" preload="auto"></audio>
+    <audio id="tramb" src="Tramb.wav" preload="auto"></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
